@@ -4,6 +4,9 @@
 	"description": "Repository of NodeJS course (part two) of Midudev.",
 	"main": "index.js",
 	"scripts": {
+		"start:lesson01": "node --watch Lessons/01-native-API/index.js",
+		"start:lesson02": "node --watch Lessons/02-native-API-routing/index.js",
+		"start:lesson03": "node --watch Lessons/03-express/index.js",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"prepare": "husky install"
 	},
@@ -17,10 +20,11 @@
 	"keywords": [
 		"NodeJS",
 		"Node",
-		"Part",
-		"two",
+		"Part two",
 		"Course",
-		"Midudev"
+		"Midudev",
+		"Express",
+		"API"
 	],
 	"author": "hozlucas28",
 	"license": "MIT",
