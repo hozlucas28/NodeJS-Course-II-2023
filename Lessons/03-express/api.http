@@ -1,0 +1,14 @@
+### Solicita la información del Pokemon Ditto
+GET http://localhost:3000/pokemon/ditto
+
+### Agrega un nuevo Pokemon a la colección
+POST http://localhost:3000/pokemon
+Content-Type: "application/json"
+
+{
+    "name": "ditto",
+    "type": "normal",
+    "moves": [
+        "transform"
+    ]
+}
