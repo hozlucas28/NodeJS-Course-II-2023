@@ -63,7 +63,7 @@ app.post('/pokemon', (req, res) => {
 
 // Middleware - En caso de no entrar a una ruta válida
 app.use((req, res) => {
-	res.send('<h1>404 Not Found</h1>')
+	res.status(404).send('<h1>404 Not Found</h1>')
 })
 
 // Levanto la aplicación (API) de Express
